@@ -54,7 +54,7 @@ public class App {
 
         if (username.equals(USERNAME) && password.equals(PASSWORD) && entryCaptcha.equals(captcha)) {
             System.out.println("Login berhasil!");
-            // ... Your existing code for successful login
+           
             return true;
         } else {
             System.out.println("Login gagal. Program berhenti.");
